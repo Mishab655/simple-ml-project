@@ -32,3 +32,12 @@ jobs:
         with:
           name: trained-model
           path: models/
+          
+      - name: Run data drift monitor
+        run: python src/monitor_drift.py
+
+      - name: Upload drift report
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-drift-report
+          path: reports/data_drift_report.html
