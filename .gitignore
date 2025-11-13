@@ -1,1 +1,4 @@
 reports
+.venv
+.pytest_cache
+.models
