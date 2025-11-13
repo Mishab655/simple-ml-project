@@ -26,4 +26,4 @@ docker run -p 8000:8000 simple-ml-app
 ```
 
 ### GitHub Actions
-Automatically installs dependencies, runs tests, trains model, and uploads `models/` as an artifact.
+Automatically installs dependencies, runs tests, trains model, and uploads `models/` as an artifact...
