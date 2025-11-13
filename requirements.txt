@@ -5,3 +5,4 @@ pandas
 joblib
 pytest
 evidently==0.4.25
+numpy==1.26.4
